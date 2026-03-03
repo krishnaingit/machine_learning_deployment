@@ -7,7 +7,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load the trained model, scaler, and imputation means
-model = joblib.load('logistic_regression_model.joblib')
+model = joblib.load('logistic_regression_model (1).joblib')
 scaler = joblib.load('Scalar.joblib')
 imputation_means = joblib.load('imputation_means.joblib')
 
